@@ -1,0 +1,211 @@
+/* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
+
+        /* 
+        
+        Spacing 
+
+            - padding (shorthand and/or specific properties like padding-bottom, etc.)
+
+            - margin, (shorthand and/or specific properties like margin-top, etc.)
+
+            - letter-spacing, word-spacing, line-height
+
+            - width, max-width, min-width
+            - height, max-height, min-height
+
+        Typography 
+
+            - font-family, font-size, font-style, font-weight
+
+            - text-decoration, text-align
+
+            - color
+
+            - text-shadow, text-transform
+
+        Box, Layout and Border 
+
+            - border (shorthand and/or specific properties like border-top, border-bottom-radius, border-width, etc.)
+
+            - box-shadow
+
+            - display, float, align-items, align-content
+
+            - grid-template-columns, grid-column-gap
+
+            - transform
+
+        Other
+
+            - :nth()-child (to target specific child elements)
+
+            - :focus, :hover, :active (to target link states)
+
+            - @font-face or @import (to import typefaces)
+
+        */
+
+
+/* ------ START WRITING YOUR CODE BELOW ------ */
+
+@font-face {
+    font-family: "roboto";
+    src: url(../fonts/sans-serif/roboto-regular);
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(../fonts/serif/ultra-regular.ttf);
+    font-weight: normal;
+    font-size: normal;
+}
+
+
+html{
+    /*file root or default*/
+    font-size:16px;
+    background-color: black;
+    color: white;
+}
+
+body{
+    /*body */
+    font-size:16px;
+
+}
+
+main{
+    /*main part of the article*/
+    text-align: left;
+    width: 1500px;
+}
+
+nav{
+    font-family: "roboto";
+    font-size: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: 60px;
+    margin-left: 50px;
+    word-spacing: 233px;
+}
+
+hr{
+    height:5px;
+    border-width:0;
+    background-color: white;
+}
+
+
+p{
+    text-align: justify;
+    /*paragrpah*/
+    font-size:16px;
+}
+
+h1{
+    /*header1 */
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "roboto";
+}
+
+h2{
+    /*Header 2 */
+    color: red;
+    margin:auto;    
+    padding-left: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+
+h3{
+    /*header 3  */
+    color: red;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 20px;
+    margin:auto
+}
+
+aside{
+    display: block;
+    float: right;
+    width: 400px;
+    height: 1510px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    border-left: 1px solid white;
+    box-sizing: border-box;
+}
+
+footer{
+    /* */
+    text-align: right;
+    font-size: 16px;
+    margin-top: auto;
+}
+
+
+
+.highlight{
+    /* Value for the title */
+    color: red
+
+
+}
+
+.main-section{
+    /* self explanitory */
+    margin: auto;
+    color: white;
+
+}
+
+.subsection{
+    /* read it dumbass */
+    width: 1030px;
+    color: white;
+    margin-right: 1%;
+    float: left;
+    display: flex;
+    padding: 8px;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+.article-image{
+    /*image default */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+    float: left;
+    width: auto;
+
+}
+
+.expand{
+    /* This is for some link im pretty sure */
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.center{
+    /* Centers */
+    margin-left: left;
+    margin-right: auto;
+}
